@@ -90,6 +90,7 @@ class MilvusClassifier:
     def calculate_avg_cosine_similarity(
         self, df: pd.DataFrame, embeddings: np.ndarray
     ) -> Dict[str, float]:
+        """Calculate average cosine similarity for each cluster."""
         df = df.copy()
         assert df.shape[0] == embeddings.shape[0]
         df["embeddings"] = [np.array(embedding) for embedding in embeddings]
@@ -257,6 +258,7 @@ class MilvusClassifier:
         ), f"Mismatch in record count: Milvus has {collection_count}, DataFrame has {df.shape[0]}"
 
     def predict(self, query_text: str, k=5, fields=["*"]) -> List[str]:
+        """Predict the top k similar records for the given query text."""
         logging.info(f"Predicting top {k} results for query text")
         results = self.client.search(
             collection_name=self.collection_name,
