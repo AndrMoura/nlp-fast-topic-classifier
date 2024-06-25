@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+.vscode/
+venv/
+.ipynb_checkpoints/
+notebook.ipynb
+data copy/
+create_faiss.py
+create_faiss_config.py
+*.db
+*db.lock

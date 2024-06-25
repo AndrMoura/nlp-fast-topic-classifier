@@ -1,0 +1,49 @@
+user_text,cluster_label,hashed
+"AI를 이용해 그림을 그리는 프로그램을 하나 쓰고있어요 프롬프트라 써진 곳에 ((masterpiece, best quality, high\_resolution, distinct\_image)),realistic, colorful,((city))를 입력하면 도시 하나가 그려져요 그러니까 위에 적힌게 프롬프트라는 거고, 프롬프트를 작성할때는 A, B, C...같은 방식으로 많이 써요 위에서 나온 소괄호는 강조고, 대괄호는 효과를 약화시켜요 (강조할 단어나 문장), [덜 강조할 단어나 문장] 일단, danbooru의 태그를 기반으로 작동해요 아마 다른 단어를 쓰거나 자연어도 가능하지만 될 수 있으면 단부루 기준으로 해주세요 각 문장이나 단어는 쉼표로 구분해서 자연어를 써야할 경우 쉼표는 사용하지 말아주세요 태그에 관해 몇개 더 알려드리자면, 1. masterpiece, best quality, high\_resolution, distinct\_image 등을 이용해 퀄리티를 올릴 수 있어요 2. cinematic light, shine 등을 이용해 빛 효과를 조절할 수 있어요 초반에 적힌걸 더 제대로 인식하기 때문에 처음에 퀄리티 관련 태그를 먼저 넣는게 보통이에요 스텝이라는 기능이 있는데, 이걸 진행함으로써 그림을 그리는 듯 싶어요 이 아래는 가끔씩만 쓰는 기능이니까 참고만 해주세요 이걸 활용해서 [A|B]라고 입력하면 A와 B를 번갈아가며 그려요 [cow|horse] in a field라고 쓴다고 하면 1스텝은 소, 2스텝은 말, ... babbling brook, a placid lake, overgrown ruins, moss-covered stones, a winding path, a hidden glade, a tranquil waterfall, a secluded pond, a dense thicket, a sun-dappled clearing, a grassy knoll, a rugged coastline, a craggy cliff, a rocky shoreline, a soaring mountain, a steep ravine 크툴루 : ((masterpiece, best quality, high\_resolution, distinct\_image, full body, wide shot)),realistic, colorful, ((Lone, cultist, massive, stone, altar, flickering, candles, chanting, peers, strange, alien, runes, writhing, captive, creature, sacrifice, heavy, brimstone, pulsing, incantation, summoning, deity, slumber, awakening, bloodcurdling, scream, glowing, otherworldly, light, insatiable, hunger, maw, behemoth, surrendering, Solo, adherent, colossal, granite, shrine, dimming, torches, intoning, accomplices, eerie, extraterrestrial, symbols, thrashing, imprisoned, specimen, immolation, thick, sulphur, rhythmic, enchantment, evoking, elder god, dormancy, rising, ear-piercing, howl, shimmering, supernatural, illumination, unquenchable, appetite, jaws, monstrosity, submitting)) 위와 같이 작성할 수 있어요 이해하셨다면 위 방식대로 다음주제에 대해 그려보고 싶은데 입력할 프롬프트를 써주실 수 있나요? 주제 : 말을 타고 초원을 달리는 무사 고마워, 같은 방식으로 아래의 주제에 대해 프롬프트를 써줘
+
+주제 : 호수한 가운데에 선 슬퍼하는 공주",generateprompts,b80a8df7fcc118e1bf3ccf18735017cd5b0db322fa9f6f0783b15763146275ef
+Seismologists: How do you determine whether an earthquake was naturally occurring or if it was human induced?,EarthQuakeInformationandSupport,f5f11e3b99cd8f132d1b1431f93419e47743881101afe05f5e36d9381c3b2766
+Write a tweet in the style of Andres Guadamuz @technollama Generate ten topics that Andres Guadamuz can write about next Please add a short description to all of them,GeneratingContentTopicsGeneratetitles,cd40f8f2dd7447c9c5d4e7fb68a01878d68ea9607d16fb3fa0e85df86763a49a
+"i want to know about Steve Jobs' early life, his career milestones, and his impact on the technology industry. What are the key takeaways from his biography? give me a summary",BookSummary,abd3624c1975168299e6b2661b37ca61a443f103ac7e431c6caf01bb77814671
+pull to refresh android kotlin with custom progress bar I want to change the existing loader on SwipeRefreshLayout to my own asset what if the asset comes from lottiefiles ? I want to change including the animation while its swiping,DevelopmentAssistanceRequestsDevelopiOSappwithSwiftUIandMetalASTstructureMobileDevelopmentAssistance,2f35ab426e217dbd393c4e30a7282d632d6630125a055ae5f6019fa0265a6549
+Can you write a swift struct version of the metal shading language's abstract syntax tree? I don't see how this structure would include the values of the data types. Would those not be needed? Could you provide a usage example for a simple metal shader? Can you write a SwiftUI view for creating or editing a structure like this? Please continue.,DevelopmentAssistanceRequestsDevelopiOSappwithSwiftUIandMetalASTstructureMobileDevelopmentAssistance,198c58f84c0a53fa7bd97de917dc7006bfa81c8f739217169d67e716275668e6
+"Do you recognize what this file is for?
+
+{
+ ""name"": ""Name of the corpus"",
+ ""locale"": ""en-US"",
+ ""data"": [
+ {
+ ""intent"": ""agent.birthday"",
+ ""utterances"": [
+ ""when is your birthday"",
+ ""when do you celebrate your birthday"",
+ ""when were you born"",
+ ""when do you have birthday"",
+ ""date of your birthday""
+ ],
+ ""answers"": [
+ ""Wait, are you planning a party for me? It's today! My birthday is today!"",
+ ""I'm young. I'm not sure of my birth date"",
+ ""I don't know my birth date. Most virtual agents are young, though, like me.""
+ ]
+ },
+ ...
+ ]
+} generate a chatbot corpus to use for a snarky bar customer",ChatbotandDiscordBotDevelopmentandHelp,1b98111be7837da6790e4ae0416732e9bea96c616d22f0ee07830846d9cf2cff
+"I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. When I need to tell you something in English I will do so by putting text inside curly brackets {like this}.
+I am logged as root and nodejs is already installed.
+My first command is pwd. node -v {Create a file named test.js inside the current directory and put the following quoted content inside:
+```let i = 1n;
+let x = 3n \* (10n \*\* 21n);
+let p = x;
+while (x > 0) {
+ x = x \* i / ((i + 1n) \* 4n);
+ p += x / (i + 2n);
+ i += 2n;
+}
+console.log((p / (10n \*\* 2n)).toString());
+```
+} ls",LinuxTerminalCommandsandOutput,98fe81e68023424755a301f9b5c9e0345a34b03282a55db41a368dab0a5ece48
+"The misery of life never appears in a clearer light than when a thinking person has quite plainly seen with horror its hazards and uncertainties and the total darkness in which he lives; how he cannot find anything solid, secure, and beyond dispute on to which he can hold; when, as I say, after such thoughts he does not at once destroy an existence that is not one, but breathing, eating, drinking and sleeping are the solid things to which he clings and to which he returns as to a haven of security. But it is not so! The solid thing to which he clings is the knowledge that for the moment has only receded into the background, namely the knowledge of the eternal truth which is what keeps him in life at every instant. And just as breathing is necessary for the body lest it fail to serve the mind, so is it necessary for the mind that this may not sever the tie. If that knowledge comes to the fore, we have art and science. analysis rewrite and then analysis:The solid thing to which he clings is the knowledge that for the moment has only receded into the background, namely the knowledge of the eternal truth which is what keeps him in life at every instant. rewrite and polish: The solid thing to which he clings is the knowledge that for the moment has only receded into the background, namely the knowledge of the eternal truth which is what keeps him in life at every instant.",SpiritualInquiry,67840a63479baef1e2b6a25a2511da4d9ace5462afaa056d0e3e8245797b9e74
+"Send a christmas greeting to my friends in the brewing industry. Do this in the style of Gilbert Gottfried. Include foul language. Mock them for their excessive weight and general poor health. Suggest that I see their wives more than them. End with sincerity though and tell them they're good people even if they are shitty brewers. Ok, revise the message above and reference their wives",Christmasrelatedtext,0ecac574305338271ae0da0e1bb9b4e0bbee694ad161db3bafe8b164d4bfcddf
